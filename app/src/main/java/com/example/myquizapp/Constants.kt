@@ -10,20 +10,20 @@ object Constants {
         val questionsList = ArrayList<Question>()
         // 1
         val que1 = Question(
-            1, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_argentina,
-            "Argentina", "Australia",
-            "Armenia", "Austria", 1
+            1, "What is the name of this animal?",
+            R.drawable.dog,
+            "Dog", "Frog",
+            "Elephant", "Cat", 1
         )
 
         questionsList.add(que1)
 
         // 2
         val que2 = Question(
-            2, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_australia,
-            "Angola", "Austria",
-            "Australia", "Armenia", 3
+            2, "What is this appliance?",
+            R.drawable.fan,
+            "Hair Dryer", "Spoon",
+            "Fan", "Scissors", 3
         )
 
         questionsList.add(que2)
@@ -31,79 +31,81 @@ object Constants {
         // 3
         val que3 = Question(
             3, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_brazil,
-            "Belarus", "Belize",
-            "Brunei", "Brazil", 4
+            R.drawable.ic_flag_of_germany,
+            "Germany", "Georgia",
+            "Greece", "none of these", 1
         )
 
         questionsList.add(que3)
 
         // 4
         val que4 = Question(
-            4, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_belgium,
-            "Bahamas", "Belgium",
-            "Barbados", "Belize", 2
+            4, "What is this activity?",
+            R.drawable.cycling,
+            "Jogging", "Running",
+            "Swimming", "Cycling", 4
         )
 
         questionsList.add(que4)
 
         // 5
         val que5 = Question(
-            5, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_fiji,
-            "Gabon", "France",
-            "Fiji", "Finland", 3
+            5, "What is his job?",
+            R.drawable.footballer,
+            "Doctor", "Footballer",
+            "Golfer", "Swimmer", 2
         )
 
         questionsList.add(que5)
 
         // 6
         val que6 = Question(
-            6, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_germany,
-            "Germany", "Georgia",
-            "Greece", "none of these", 1
+            6, "What is this appliance?",
+            R.drawable.washingmachine,
+            "Refrigerator", "Fan",
+            "Washing Machine", "Hair Dryer", 3
         )
 
         questionsList.add(que6)
 
+
+
         // 7
         val que7 = Question(
-            7, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_denmark,
-            "Dominica", "Egypt",
-            "Denmark", "Ethiopia", 3
+            7, "What shape is this?",
+            R.drawable.square,
+            "Triangle", "Diamond",
+            "Square", "Rectangle", 3
         )
 
         questionsList.add(que7)
 
         // 8
         val que8 = Question(
-            8, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_india,
-            "Ireland", "Iran",
-            "Hungary", "India", 4
+            8, "What is his job?",
+            R.drawable.fireman,
+            "Taxi Driver", "Cook",
+            "Doctor", "Fireman", 4
         )
 
         questionsList.add(que8)
 
         // 9
         val que9 = Question(
-            9, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_new_zealand,
-            "Australia", "New Zealand",
-            "Tuvalu", "United States of America", 2
+            9, "What shape is this?",
+            R.drawable.circle,
+            "Square", "Circle",
+            "Oval", "Rectangle", 2
         )
 
         questionsList.add(que9)
 
         // 10
         val que10 = Question(
-            10, "What country does this flag belong to?",
-            R.drawable.ic_flag_of_kuwait,
-            "Kuwait", "Jordan",
-            "Sudan", "Palestine", 1
+            10, "What is this animal?",
+            R.drawable.monkey,
+            "Monkey", "Elephant",
+            "Giraffe", "Snake", 1
         )
 
         questionsList.add(que10)
